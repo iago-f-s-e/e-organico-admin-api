@@ -1,3 +1,5 @@
+import { PendingProducerResponse } from '@src/domain/dtos/producer';
+
 export interface IProducerController {
-  ping(): string;
+  getPendingProducers(): Promise<PendingProducerResponse[]>;
 }

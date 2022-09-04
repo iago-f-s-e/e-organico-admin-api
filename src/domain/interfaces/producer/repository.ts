@@ -1,3 +1,5 @@
+import { IProducer } from './entity';
+
 export interface IProducerRepository {
-  ping(): string;
+  findPending(): Promise<IProducer[]>;
 }
