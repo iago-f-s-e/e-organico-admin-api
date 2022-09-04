@@ -1,8 +1,8 @@
 {
-  "name": "e-organico-admin-api-service",
+  "name": "e-organico-admin-api",
   "version": "1.0.0",
   "main": "src/main.ts",
-  "repository": "https://github.com/iago-f-s-e/e-organico-admin-api-service.git",
+  "repository": "https://github.com/iago-f-s-e/e-organico-admin-api.git",
   "author": "iago-f-s-e <iago.fagundes@outlook.com>",
   "license": "MIT",
   "scripts": {
