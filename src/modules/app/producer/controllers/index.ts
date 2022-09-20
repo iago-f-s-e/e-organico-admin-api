@@ -9,7 +9,7 @@ import { FindProducerUseCase } from '../use-cases';
 export class ProducerController implements IProducerController {
   constructor(private readonly findUseCase: FindProducerUseCase) {}
 
-  @Get('pending-producers')
+  @Get('pending')
   public async getPendingProducers(): Promise<PendingProducerResponse[]> {
     return PendingProducer.pending(await this.findUseCase.pendingProducers());
   }
